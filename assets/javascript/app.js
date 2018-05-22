@@ -161,7 +161,7 @@ function setup() {
 
 function getAnswer() {
 
-//  nextQuestion();
+
 	$('.answerchoice').on('click', function() {
 	  console.log('alert', index);
 		index++;
@@ -244,6 +244,6 @@ if ((answerChosen == 'D') && (questionArray[index].flags[3] == true)) {
 });
 
 
-//	$('#start').click(countdownTimer.start);
+
 });
 
