@@ -41,7 +41,7 @@ var q1 = {
 				 'B. Andre Agassi',
 				 'C. Rafael Nadal',
 				 'D. Serena Williams'],
-	flags : [true, false, true, false],
+	flags : [true, false, false, false],
     answer : 'A. Roger Federer'
 };
 
@@ -61,7 +61,7 @@ var q3 = {
 				 'B. Presa de la Boca',
 				 'C. Lake Alberta',
 				 'D. Lake Colorado'],
-	flags : [true, true, false, false],
+	flags : [true, false, false, false],
 	answer : 'A. Lake Superior'
 };
 
