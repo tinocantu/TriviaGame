@@ -1,0 +1,40 @@
+body {
+	background-color: rgb(0, 247, 255);
+}
+
+button {
+	width: 80%;
+	height: 40px;
+	margin: 0 10%;
+    float: left;
+    border-radius: 12px;
+    background-color: greenyellow;
+    padding-bottom: 12px;
+    cursor: pointer;
+}
+
+button.answerchoice {
+	display: none;
+}
+
+button:hover {
+	background-color: blue;
+	color: white;
+}
+
+.answers div {
+	margin: 0 auto;
+}
+
+img {
+	height: 200px;
+    width: auto;
+    float: center;
+}
+
+h1, h2, h3, .question {
+	text-align: center;
+}
+.image {
+    float: center;
+}
