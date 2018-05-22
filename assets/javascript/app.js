@@ -195,29 +195,7 @@ function showScore() {
 	$('.timer').empty();
 
 }
-//		for (var i=0; i<questionArray.length; i++) {
-//			$('.question').append('<p>'+questionArray[i].question+'</p>');
-//			for (var j=0; j<questionArray[i].possibleAnswers.length; j++) {
-//				$('.answers').append('<span><button id="possibleAnswer">' + questionArray[i].possibleAnswers[j]+ '</button></span>');
-//			}
-//			$('#possibleAnswers').on('click', function() {
 
-
-//		console.log("click");
-//		countdownTimer.start();
-//		for (var i = 0; i < questionArray.length; i++) {
-//			console.log(i);
-
-//			$('.timer').html('<h3>'+countdownTimer.time + ' seconds remaining</h3>');
-//			$('.question').html(questionArray[i].question);
-//			while (countdownTimer != 0) {
-
-//			}
-		
-//	});
-//	$('#startButton').click(countdownTimer.start);
-
-//}
 setup();
 $('.answerchoice').on('click', function() {
  console.log($(this));
